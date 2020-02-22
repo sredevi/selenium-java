@@ -37,8 +37,17 @@ public class SampleWebpage {
 	Select dropdown = new Select(dd);
 	checkbox.selectByValue("Performance");
 	
+	//Double click Alert box
+	driver.findElement(By.xpath("//button[@id='dblClkBtn']")).click();
 	
+	//Alert box
+	driver.findElement(By.xpath("(//div[@class='col-md-12'])[10]")).click();
+		
+	//Confirm Box
+	driver.findElement(By.xpath("(//div[@class='col-md-12'])[11]")).click();
 	
+	//Drag and drop Box
+		driver.findElement(By.xpath("(//div[@class='col-md-12'])[12]")).click();
 	
 	
 	
