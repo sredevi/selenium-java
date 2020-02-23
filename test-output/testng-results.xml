@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9849" started-at="2020-02-16T17:14:58Z" finished-at="2020-02-16T17:15:08Z">
+  <suite name="Default suite" duration-ms="9221" started-at="2020-02-23T15:28:09Z" finished-at="2020-02-23T15:28:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9849" started-at="2020-02-16T17:14:58Z" finished-at="2020-02-16T17:15:08Z">
+    <test name="Default test" duration-ms="9221" started-at="2020-02-23T15:28:09Z" finished-at="2020-02-23T15:28:18Z">
       <class name="selenium.java.testng.FirstTestNG">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:selenium.java.testng.FirstTestNG@735b5592]" name="beforeTest" is-config="true" duration-ms="18" started-at="2020-02-16T11:14:58Z" finished-at="2020-02-16T11:14:58Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:selenium.java.testng.FirstTestNG@55f3ddb1]" name="beforeTest" is-config="true" duration-ms="10" started-at="2020-02-23T09:28:09Z" finished-at="2020-02-23T09:28:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="myFirstTestcase()[pri:0, instance:selenium.java.testng.FirstTestNG@735b5592]" name="myFirstTestcase" duration-ms="9794" started-at="2020-02-16T11:14:58Z" finished-at="2020-02-16T11:15:08Z">
+        <test-method status="PASS" signature="myFirstTestcase()[pri:0, instance:selenium.java.testng.FirstTestNG@55f3ddb1]" name="myFirstTestcase" duration-ms="9194" started-at="2020-02-23T09:28:09Z" finished-at="2020-02-23T09:28:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFirstTestcase -->
-        <test-method status="PASS" signature="mySecondTestcase()[pri:0, instance:selenium.java.testng.FirstTestNG@735b5592]" name="mySecondTestcase" duration-ms="2" started-at="2020-02-16T11:15:08Z" finished-at="2020-02-16T11:15:08Z">
+        <test-method status="PASS" signature="mySecondTestcase()[pri:0, instance:selenium.java.testng.FirstTestNG@55f3ddb1]" name="mySecondTestcase" duration-ms="1" started-at="2020-02-23T09:28:18Z" finished-at="2020-02-23T09:28:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySecondTestcase -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:selenium.java.testng.FirstTestNG@735b5592]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-02-16T11:15:08Z" finished-at="2020-02-16T11:15:08Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:selenium.java.testng.FirstTestNG@55f3ddb1]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-23T09:28:18Z" finished-at="2020-02-23T09:28:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

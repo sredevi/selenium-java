@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 
-public class FirstTestNG {
+public class FirstTest {
   WebDriver driver;
   @Test
   public void myFirstTestcase(){
@@ -49,7 +49,7 @@ public class FirstTestNG {
   @AfterTest
   public void afterTest() {
 	  System.out.println("Print this After Test");
-	 // driver.close();
+	 driver.close();
   }
 
 }
